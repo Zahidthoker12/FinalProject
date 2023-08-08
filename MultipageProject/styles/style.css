@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    height: 20vh;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav img{
+    scale: 0.6;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+nav ul li:first-child{
+    color: rgb(56, 175, 85);
+}
+
+main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80vh;
+    padding: 5%;
+}
+
+.left-section{
+    width: 50%;
+    margin-left: 5%;
+}
+
+.left-section .topangle{
+    scale: 0.7;
+    margin-bottom: 10px;
+
+}
+
+.left-section h1{
+    display: block;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.left-section p {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.left-section .bottomangle{
+    scale: 0.7;
+    position: relative;
+    left: 95%;
+}
+
+
+.left-section .stethoscope{
+    position: absolute;
+    top: 70px;
+    scale: 0.7;
+    left: 60px;
+    
+}
+
+.left-section .mouse{
+    position:relative;
+    left: 100%;
+    top: -60px;
+    scale: 0.8;
+}
+
+.btn-appointment{
+    display: block;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 35px;
+    background-color: #20BC7E;
+    color:white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.right-section{
+display: flex;
+justify-content: center;
+align-items: center;
+    
+    
+}
+
+
+.right-section img:first-child{
+    position: absolute;
+    right: 0;
+    width: 35%;
+
+}
+
+.right-section img:nth-child(2){
+    position:absolute;
+    width: 30%;
+    right: 0;
+    
+      
+}
+.right-section img:nth-child(3){
+    position:absolute;
+    height: 90%;
+    right: 0;
+    bottom: 0;
+}
